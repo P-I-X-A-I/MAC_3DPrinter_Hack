@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D454B4817AE684C002C1FE1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D454B4717AE684C002C1FE1 /* Cocoa.framework */; };
+		1D454B5217AE684C002C1FE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D454B5017AE684C002C1FE1 /* InfoPlist.strings */; };
+		1D454B5417AE684C002C1FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D454B5317AE684C002C1FE1 /* main.m */; };
+		1D454B5817AE684C002C1FE1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D454B5617AE684C002C1FE1 /* Credits.rtf */; };
+		1D454B5B17AE684C002C1FE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D454B5A17AE684C002C1FE1 /* AppDelegate.m */; };
+		1D454B5E17AE684C002C1FE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D454B5C17AE684C002C1FE1 /* MainMenu.xib */; };
+		1D454B6517AE685D002C1FE1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D454B6417AE685D002C1FE1 /* IOKit.framework */; };
+		1D454B6817AE6872002C1FE1 /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D454B6717AE6872002C1FE1 /* mainController.m */; };
+		1D454B6B17AE68EB002C1FE1 /* SerialSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D454B6A17AE68EB002C1FE1 /* SerialSearch.m */; };
+		1D454B6D17AE6A56002C1FE1 /* gamepad.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D454B6C17AE6A56002C1FE1 /* gamepad.mm */; };
+		1DD28D5117AF72D800A3C8AC /* sendData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28D5017AF72D800A3C8AC /* sendData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D454B4417AE684C002C1FE1 /* 004_3DPrinter_Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 004_3DPrinter_Hack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D454B4717AE684C002C1FE1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D454B4A17AE684C002C1FE1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D454B4B17AE684C002C1FE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D454B4C17AE684C002C1FE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D454B4F17AE684C002C1FE1 /* 004_3DPrinter_Hack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "004_3DPrinter_Hack-Info.plist"; sourceTree = "<group>"; };
+		1D454B5117AE684C002C1FE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D454B5317AE684C002C1FE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D454B5517AE684C002C1FE1 /* 004_3DPrinter_Hack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "004_3DPrinter_Hack-Prefix.pch"; sourceTree = "<group>"; };
+		1D454B5717AE684C002C1FE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D454B5917AE684C002C1FE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D454B5A17AE684C002C1FE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D454B5D17AE684C002C1FE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D454B6417AE685D002C1FE1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1D454B6617AE6872002C1FE1 /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mainController.h; path = ../mainController.h; sourceTree = "<group>"; };
+		1D454B6717AE6872002C1FE1 /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mainController.m; path = ../mainController.m; sourceTree = "<group>"; };
+		1D454B6917AE68EB002C1FE1 /* SerialSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialSearch.h; sourceTree = SOURCE_ROOT; };
+		1D454B6A17AE68EB002C1FE1 /* SerialSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialSearch.m; sourceTree = SOURCE_ROOT; };
+		1D454B6C17AE6A56002C1FE1 /* gamepad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = gamepad.mm; sourceTree = "<group>"; };
+		1DD28D5017AF72D800A3C8AC /* sendData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D454B4117AE684C002C1FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D454B6517AE685D002C1FE1 /* IOKit.framework in Frameworks */,
+				1D454B4817AE684C002C1FE1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D454B3B17AE684C002C1FE1 = {
+			isa = PBXGroup;
+			children = (
+				1D454B4D17AE684C002C1FE1 /* 004_3DPrinter_Hack */,
+				1D454B4617AE684C002C1FE1 /* Frameworks */,
+				1D454B4517AE684C002C1FE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D454B4517AE684C002C1FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D454B4417AE684C002C1FE1 /* 004_3DPrinter_Hack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D454B4617AE684C002C1FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D454B6417AE685D002C1FE1 /* IOKit.framework */,
+				1D454B4717AE684C002C1FE1 /* Cocoa.framework */,
+				1D454B4917AE684C002C1FE1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D454B4917AE684C002C1FE1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D454B4A17AE684C002C1FE1 /* AppKit.framework */,
+				1D454B4B17AE684C002C1FE1 /* CoreData.framework */,
+				1D454B4C17AE684C002C1FE1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D454B4D17AE684C002C1FE1 /* 004_3DPrinter_Hack */ = {
+			isa = PBXGroup;
+			children = (
+				1D454B5917AE684C002C1FE1 /* AppDelegate.h */,
+				1D454B5A17AE684C002C1FE1 /* AppDelegate.m */,
+				1D454B6617AE6872002C1FE1 /* mainController.h */,
+				1D454B6717AE6872002C1FE1 /* mainController.m */,
+				1D454B6C17AE6A56002C1FE1 /* gamepad.mm */,
+				1D454B6917AE68EB002C1FE1 /* SerialSearch.h */,
+				1D454B6A17AE68EB002C1FE1 /* SerialSearch.m */,
+				1DD28D5017AF72D800A3C8AC /* sendData.m */,
+				1D454B5C17AE684C002C1FE1 /* MainMenu.xib */,
+				1D454B4E17AE684C002C1FE1 /* Supporting Files */,
+			);
+			path = 004_3DPrinter_Hack;
+			sourceTree = "<group>";
+		};
+		1D454B4E17AE684C002C1FE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D454B4F17AE684C002C1FE1 /* 004_3DPrinter_Hack-Info.plist */,
+				1D454B5017AE684C002C1FE1 /* InfoPlist.strings */,
+				1D454B5317AE684C002C1FE1 /* main.m */,
+				1D454B5517AE684C002C1FE1 /* 004_3DPrinter_Hack-Prefix.pch */,
+				1D454B5617AE684C002C1FE1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D454B4317AE684C002C1FE1 /* 004_3DPrinter_Hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D454B6117AE684C002C1FE1 /* Build configuration list for PBXNativeTarget "004_3DPrinter_Hack" */;
+			buildPhases = (
+				1D454B4017AE684C002C1FE1 /* Sources */,
+				1D454B4117AE684C002C1FE1 /* Frameworks */,
+				1D454B4217AE684C002C1FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 004_3DPrinter_Hack;
+			productName = 004_3DPrinter_Hack;
+			productReference = 1D454B4417AE684C002C1FE1 /* 004_3DPrinter_Hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D454B3C17AE684C002C1FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "渡辺 圭介";
+			};
+			buildConfigurationList = 1D454B3F17AE684C002C1FE1 /* Build configuration list for PBXProject "004_3DPrinter_Hack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D454B3B17AE684C002C1FE1;
+			productRefGroup = 1D454B4517AE684C002C1FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D454B4317AE684C002C1FE1 /* 004_3DPrinter_Hack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D454B4217AE684C002C1FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D454B5217AE684C002C1FE1 /* InfoPlist.strings in Resources */,
+				1D454B5817AE684C002C1FE1 /* Credits.rtf in Resources */,
+				1D454B5E17AE684C002C1FE1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D454B4017AE684C002C1FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D454B5417AE684C002C1FE1 /* main.m in Sources */,
+				1D454B5B17AE684C002C1FE1 /* AppDelegate.m in Sources */,
+				1D454B6817AE6872002C1FE1 /* mainController.m in Sources */,
+				1D454B6B17AE68EB002C1FE1 /* SerialSearch.m in Sources */,
+				1D454B6D17AE6A56002C1FE1 /* gamepad.mm in Sources */,
+				1DD28D5117AF72D800A3C8AC /* sendData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D454B5017AE684C002C1FE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D454B5117AE684C002C1FE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D454B5617AE684C002C1FE1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D454B5717AE684C002C1FE1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D454B5C17AE684C002C1FE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D454B5D17AE684C002C1FE1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D454B5F17AE684C002C1FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D454B6017AE684C002C1FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D454B6217AE684C002C1FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "004_3DPrinter_Hack/004_3DPrinter_Hack-Prefix.pch";
+				INFOPLIST_FILE = "004_3DPrinter_Hack/004_3DPrinter_Hack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D454B6317AE684C002C1FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "004_3DPrinter_Hack/004_3DPrinter_Hack-Prefix.pch";
+				INFOPLIST_FILE = "004_3DPrinter_Hack/004_3DPrinter_Hack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D454B3F17AE684C002C1FE1 /* Build configuration list for PBXProject "004_3DPrinter_Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D454B5F17AE684C002C1FE1 /* Debug */,
+				1D454B6017AE684C002C1FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D454B6117AE684C002C1FE1 /* Build configuration list for PBXNativeTarget "004_3DPrinter_Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D454B6217AE684C002C1FE1 /* Debug */,
+				1D454B6317AE684C002C1FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D454B3C17AE684C002C1FE1 /* Project object */;
+}
